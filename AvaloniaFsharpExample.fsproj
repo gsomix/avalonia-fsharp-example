@@ -6,8 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="MainWindow.xaml" />
-    <EmbeddedResource Include="App.xaml" />
+    <EmbeddedResource Include="MainWindow.xaml">
+      <LogicalName>AvaloniaFsharpExample.MainWindow.xaml</LogicalName>
+    </EmbeddedResource>
+
+    <EmbeddedResource Include="App.xaml">
+      <LogicalName>AvaloniaFsharpExample.App.xaml</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
