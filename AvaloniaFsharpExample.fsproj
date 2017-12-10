@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MainWindow.xaml" />
+    <EmbeddedResource Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="MainWindow.fs" />
+    <Compile Include="App.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.5.1" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.5.1" />
+  </ItemGroup>
+
+</Project>
