@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="MainWindow.xaml">
+    <EmbeddedResource Include="AvaloniaFsharpExample.MainWindow.xaml">
       <LogicalName>AvaloniaFsharpExample.MainWindow.xaml</LogicalName>
     </EmbeddedResource>
 
-    <EmbeddedResource Include="App.xaml">
+    <EmbeddedResource Include="AvaloniaFsharpExample.App.xaml">
       <LogicalName>AvaloniaFsharpExample.App.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
