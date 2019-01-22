@@ -1,6 +1,6 @@
 # avalonia-fsharp-example
 
-Code example for the article ["Say hello to Avalonia"](https://github.com/gsomix/blog/blob/master/01-say-hello-to-avalonia.md).
+Code example for the article ["Say hello to Avalonia"](https://gsomix.github.io/blog/01-say-hello-to-avalonia/).
 
 ![window](img/01-window.PNG)
 
