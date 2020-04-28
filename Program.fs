@@ -3,9 +3,9 @@ open Avalonia
 
 open AvaloniaFsharpExample
 
+let buildAvaloniaApp() =
+    AppBuilder.Configure<App>().UsePlatformDetect()
+
 [<EntryPoint>]
 let main argv =
-    AppBuilder.Configure<App>()
-        .UsePlatformDetect()
-        .Start<MainWindow>()
-    0
+    buildAvaloniaApp().StartWithClassicDesktopLifetime(argv)
