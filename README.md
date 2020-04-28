@@ -9,11 +9,11 @@ Code example for the article ["Say hello to Avalonia"](https://gsomix.github.io/
 [.NET Core 3.1 SDK](https://www.microsoft.com/net/download/core#/sdk) is required to build the project.
 
 ```
-$ dotnet build
+$ dotnet build -c Release
 ```
 
 # Run
 
 ```
-$ dotnet run
+$ dotnet run -c Release
 ```
